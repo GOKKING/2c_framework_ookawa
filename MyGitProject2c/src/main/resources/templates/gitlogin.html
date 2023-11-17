@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<meta charset="UTF-8">
+	<title>ログイン画面</title>
+</head>
+
+<body>
+	<div class="loginbox">
+	<form th:action="@{/gitpralogin}" method="POST">
+		<h1>ログイン</h1>
+		<p>ID:</p> 
+		<input type="text" name="yourId" placeholder="IDを入力"> <br>
+		<br>
+		<p>PASSWORD：</p> 
+		<input type="text" name="yourPass" placeholder="PASSWORDを入力"> <br>
+		<input type="submit">
+		
+	</form>
+	</div>
+
+</body>
+
+</html>
